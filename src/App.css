@@ -1,0 +1,89 @@
+*{
+  margin: 0px;
+  padding:0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  user-select: none;
+}
+.App{
+  height:100vh;
+  Background: #240046;
+  display:grid;
+}
+.container{
+  width: 100%;
+  
+  height: 100%;
+
+  display: flex;
+  flex : 0 1 auto;
+
+}
+.calculator{
+  background: #023e7d;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.219);
+  margin:auto;
+  flex: 0 1 auto;
+  border-radius: 10px;
+
+}
+
+
+.calculator form button ,p{
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height:60px;
+  border-radius: 10px;
+  font-family: Nunito;
+  font-weight: 700;
+  font-size:1.7em;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  flex : 3 1 auto;
+}
+
+.calculator form button.NumpadBtns{
+  background: #012a4a; 
+}
+.display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+  
+}
+form .display p{
+  text-align: right;
+  flex: 2;
+  font-size: 45px;
+  box-shadow: none;
+  padding:20px;
+  box-sizing: border-box;
+  background: #218380; 
+  box-shadow: 0 0 10px 3px #00000033;
+  height:80px;
+  color: white;
+}
+
+form button.equal{
+width: 145px;
+background: #005f08
+
+}
+form button.ac,form button.del{
+  background: #5f0000
+}
+
+.symbols{
+  background-color: #edae49;
+  
+}
+.special{
+  background: #248277;
+}
+
+.calculator form input:hover {
+  box-shadow: 0px 0px 5px 3px #80464625;
+}
